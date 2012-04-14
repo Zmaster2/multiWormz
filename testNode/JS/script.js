@@ -65,7 +65,7 @@ function des(players){
 }
 function connect() {
   if(firstconnect) {
-	socket = io.connect("10.10.30.176");
+	socket = io.connect("localhost");
 	  
 	socket.on('message', function(data){ message(data); });
 	socket.on('begin', function(data){ gameStarted=true; });

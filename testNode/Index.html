@@ -1,0 +1,21 @@
+<html>
+	<head>
+		<link rel='stylesheet' media='all'  type='text/css' href='CSS/style.css'/>
+	    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script src="/socket.io/socket.io.js"></script>   
+		<!--<script type='text/javascript' src='JS/server.js'></script>
+		<script type='text/javascript' src='JS/base.js'></script>
+		<script type='text/javascript' src='JS/pz.js'></script>
+		<script type='text/javascript' src='JS/group.js'></script>-->
+		<script type='text/javascript' src='JS/script.js'></script>
+	</head>	
+	<body >
+		<canvas id="canvas" width="800" height="600" style="border:1px solid #000" onMouseDown="click()" onMouseUp="solta()" ></canvas>
+		<!--<span id="sp2" style="position:fixed; top:40; right:0"></span>-->
+		<div id="side" style="position:fixed; top:0; right:0; width:150px; font-weight:bold"></div>
+		<span id="sp" style="position:fixed; bottom:0; right:0; font-weight:bold; background:white; z-index:100; width:200px; padding:10px;"></span>
+		<span id="serverStatus" style="position:fixed; bottom:30; right:0; font-weight:bold; background:white; z-index:100; width:200px; padding:10px;"></span>
+		<!--<button id="spx" style="position:fixed; bottom:50px; right:0; font-weight:bold; z-index:100;" onClick="batman()">Batman!</button>-->
+		<button id="spx" style="position:fixed; bottom:50px; right:0; font-weight:bold; z-index:100;" onClick="begin()">Begin!</button>
+	</body>
+</html>
